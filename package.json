@@ -1,0 +1,20 @@
+{
+  "name": "akinator",
+  "version": "1.0.0",
+  "description": "Anka Code akinatör bot altyapısı!",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "aki-api": "^6.0.8",
+    "discord.js": "^14.0.2",
+    "dotenv": "^16.0.0"
+  },
+  "engines": {
+    "node": ">=16.9"
+  },
+  "license": "MIT"
+}
